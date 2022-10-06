@@ -1,0 +1,5 @@
+name: "Test"
+
+queries:
+    - uses: ./.github/codeql-queries/test-code-scanning.qls
+    - uses: ./.github/codeql-queries/test-js-queries
